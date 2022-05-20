@@ -12,6 +12,7 @@ namespace AMBER
     //function definitions
     void SLEEP(double seconds);
     int random(int minimum, int maximum);
+    double randomdouble(int minimum, int maximum);
 
     //templates and structures
     template <typename T>
