@@ -23,10 +23,10 @@ namespace AMBER
         std::cout << "> ";
         if constexpr(std::is_same<T, std::string>::value)
         {
-        	std::getline(std::cin, input);
+            std::getline(std::cin, input);
         } else
         {
-        	std::cin >> input;
+            std::cin >> input;
         }
         
 
