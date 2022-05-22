@@ -12,7 +12,7 @@ namespace AMBER
     //function definitions
     void SLEEP(double seconds);
     int random(int minimum, int maximum);
-    double randomdouble(int minimum, int maximum);
+    double randomdouble(double minimum, double maximum);
 
     //templates and structures
     template <typename T>
@@ -28,7 +28,6 @@ namespace AMBER
         {
             std::cin >> input;
         }
-        
 
         while(std::cin.bad() || std::cin.fail())
         {
@@ -43,12 +42,13 @@ namespace AMBER
 
             std::cout << message << std::endl;
             std::cout << "> ";
+
             if constexpr(std::is_same<T, std::string>::value)
             {
-            	std::getline(std::cin, input);
+                std::getline(std::cin, input);
             } else
             {
-            	std::cin >> input;
+                std::cin >> input;
             }
         }
         return input;

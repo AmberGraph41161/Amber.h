@@ -22,9 +22,9 @@ namespace AMBER
     {
         return (rand() % (maximum - minimum + 1)) + minimum;
     }
-    
+
     double randomdouble(double minimum, double maximum)
     {
-        return minumum + ((double)rand() / RAND_MAX) * (maximum - minimum);
+        return minimum + ((double)rand() / RAND_MAX) * (maximum - minimum);
     }
 }

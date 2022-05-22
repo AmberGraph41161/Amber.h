@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1651533117 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\amber header file\amber.cpp
+	"Amber.h"
+
+1653113457 c:\users\jkim2\desktop\coding\codeblocks\c++ projects\amber header file\amber.h
+	<iostream>
+	<chrono>
+	<vector>
+	<limits>
+	<random>
+
+1651546603 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\amber header file\main.cpp
+	<iostream>
+	<vector>
+	<windows.h>
+	"Amber.h"
+	"AmberWin32.h"
+
+1651969636 source:c:\users\jkim2\desktop\coding\codeblocks\c++ projects\amber header file\amberwin32.cpp
+	"AmberWin32.h"
+
+1651532324 c:\users\jkim2\desktop\coding\codeblocks\c++ projects\amber header file\amberwin32.h
+	"Amber.h"
+	<iostream>
+	<fstream>
+	<cmath>
+	<windows.h>
+
