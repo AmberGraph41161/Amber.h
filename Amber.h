@@ -27,6 +27,7 @@ namespace AMBER
         } else
         {
             std::cin >> input;
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         }
 
         while(std::cin.bad() || std::cin.fail())
@@ -49,6 +50,7 @@ namespace AMBER
             } else
             {
                 std::cin >> input;
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             }
         }
         return input;
