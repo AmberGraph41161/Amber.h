@@ -34,12 +34,9 @@ namespace AMBER
         {
             std::cout << "[BAD INPUT]" << std::endl;
             std::cout << "[PLEASE TRY AGAIN]" << std::endl;
-            std::cout << "[Press any key to continue]" << std::endl;
 
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            std::cin.get();
-            system("cls");
 
             std::cout << message << std::endl;
             std::cout << "> ";
