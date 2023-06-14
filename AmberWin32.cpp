@@ -263,7 +263,6 @@ namespace AMBER
                 } else //if not horizontal or vertical just do normal slope movement
                 {
                     //y = mx + b
-                    //fuck you joey
 
                     //calculate Y Intercept
                     int y_int;
